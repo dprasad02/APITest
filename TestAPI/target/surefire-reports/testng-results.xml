@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="12724" started-at="2021-06-17T17:36:24 IST" finished-at="2021-06-17T17:36:37 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="12724" started-at="2021-06-17T17:36:24 IST" finished-at="2021-06-17T17:36:37 IST">
+      <class name="UserTest">
+        <test-method status="PASS" signature="getUserListAPI()[pri:1, instance:UserTest@55d56113]" name="getUserListAPI" duration-ms="1898" started-at="2021-06-17T17:36:24 IST" finished-at="2021-06-17T17:36:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserListAPI -->
+        <test-method status="PASS" signature="getUserSpecificUser()[pri:2, instance:UserTest@55d56113]" name="getUserSpecificUser" duration-ms="790" started-at="2021-06-17T17:36:26 IST" finished-at="2021-06-17T17:36:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserSpecificUser -->
+        <test-method status="PASS" signature="createUserSpecificUser()[pri:3, instance:UserTest@55d56113]" name="createUserSpecificUser" duration-ms="956" started-at="2021-06-17T17:36:27 IST" finished-at="2021-06-17T17:36:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserSpecificUser -->
+        <test-method status="PASS" signature="updateUserSpecificUser()[pri:4, instance:UserTest@55d56113]" name="updateUserSpecificUser" duration-ms="1137" started-at="2021-06-17T17:36:28 IST" finished-at="2021-06-17T17:36:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserSpecificUser -->
+      </class> <!-- UserTest -->
+      <class name="CommentTest">
+        <test-method status="PASS" signature="getCommentsListAPI()[pri:1, instance:CommentTest@71318ec4]" name="getCommentsListAPI" duration-ms="656" started-at="2021-06-17T17:36:29 IST" finished-at="2021-06-17T17:36:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCommentsListAPI -->
+        <test-method status="PASS" signature="getCommentsSpecificPosts()[pri:2, instance:CommentTest@71318ec4]" name="getCommentsSpecificPosts" duration-ms="938" started-at="2021-06-17T17:36:30 IST" finished-at="2021-06-17T17:36:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCommentsSpecificPosts -->
+        <test-method status="PASS" signature="createCommentsSpecificPosts()[pri:3, instance:CommentTest@71318ec4]" name="createCommentsSpecificPosts" duration-ms="1991" started-at="2021-06-17T17:36:31 IST" finished-at="2021-06-17T17:36:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCommentsSpecificPosts -->
+      </class> <!-- CommentTest -->
+      <class name="PostTest">
+        <test-method status="PASS" signature="getPostsListAPI()[pri:1, instance:PostTest@a67c67e]" name="getPostsListAPI" duration-ms="566" started-at="2021-06-17T17:36:33 IST" finished-at="2021-06-17T17:36:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostsListAPI -->
+        <test-method status="PASS" signature="getUserSpecificPosts()[pri:2, instance:PostTest@a67c67e]" name="getUserSpecificPosts" duration-ms="688" started-at="2021-06-17T17:36:33 IST" finished-at="2021-06-17T17:36:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserSpecificPosts -->
+        <test-method status="PASS" signature="createPostSpecificPosts()[pri:3, instance:PostTest@a67c67e]" name="createPostSpecificPosts" duration-ms="3066" started-at="2021-06-17T17:36:34 IST" finished-at="2021-06-17T17:36:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostSpecificPosts -->
+      </class> <!-- PostTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
